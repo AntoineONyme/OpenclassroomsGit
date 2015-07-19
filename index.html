@@ -113,6 +113,23 @@
     </section>
     <footer>
         <h1 class="tsecteion"><img class="img-titre" alt="" src="images/titres/contact.png"/> Contact</h1>
+        <section id="form-contact">
+            <!-- Ce formulaire permet d'envoyer le message à zozor@openclassrooms.com -->
+            <form action="mailto:zozor@openclassrooms.com?subject=Contact%20CV" method="post" name="envoit" enctype="text/plain">
+                <p>
+                    <input type="text" name="nom" maxlength="20" placeholder="Votre nom" required/>
+                    <input type="email" name="email" maxlength="50" placeholder="Votre email" required/>
+                    <textarea name="message" placeholder="Votre message" required></textarea><br />
+                    <input type="submit" value="Envoyer" /> 
+                </p>
+            </form>
+        </section>
+        <aside id="adresse">
+            <div class="ladresse">
+                <address>28 Boulevard Haussmann<br/>750009 Paris</address><em>Tél. : 06 06 06 06 06</em>
+            </div>
+            <iframe width="370" height="163" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=2.3301100730895996%2C48.87247073665426%2C2.339916229248047%2C48.87692335091366&amp;layer=hot"></iframe>
+        </aside>
     </footer>
 </div>
 </body>
