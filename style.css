@@ -1,0 +1,73 @@
+/*Background et mise en page général*/
+    body{
+        background-image: url("images/background.png");
+        font-family: "Source Sans Pro", serif;
+        color: #002d40;
+    }
+    #cv{
+        width: 700px;
+        margin: auto;
+    }
+    h2{
+        color: #03638b;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    
+/*style par defaux*/
+    h1{
+        font-family: Pacifico, serif;
+        font-weight: normal;
+        font-size: 30px;
+        cursor: default;
+    }
+    .img-titre{
+        position: relative;
+        top: 5px;
+    }
+    strong{
+        color: #002d40;
+        font-weight: bold;
+    }
+    p{
+        color: #858580;
+    }
+    
+/*Header*/
+    #titre{
+        display: inline-block;
+        vertical-align: top;
+    }
+    header #skin span{
+        display: inline-block;
+        background-color: white;
+        padding: 5px;
+        height: 145px;
+        border-radius: 5px;
+        box-shadow: 1.5px 1.5px 5px grey;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    #titre h1{
+        position: relative;
+        bottom: 20px;
+        font-family: Pacifico, serif;
+        margin: 0;
+        text-align: center;
+        font-size: 85px;
+        height: 120px;
+        font-weight: normal;
+    }
+    #titre h2{
+        position: relative;
+        bottom: 10px;
+        font-family: "Source Sans Pro", serif;
+        margin: 0;
+        text-align: center;
+        font-weight: normal;
+        font-size: 23px;
+        margin-left: 10px;
+        color: #03638B;
+    }
