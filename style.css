@@ -14,7 +14,7 @@
     hr{
         margin-top: 20px;
     }
-    
+  
 /*style par defaux*/
     h1{
         font-family: Pacifico, serif;
@@ -33,7 +33,7 @@
     p{
         color: #858580;
     }
-    
+  
 /*Header*/
     #titre{
         display: inline-block;
@@ -71,7 +71,7 @@
         margin-left: 10px;
         color: #03638B;
     }
-    
+
 /*navigation*/
     header nav{
         border-color: #002D40;
@@ -119,7 +119,7 @@
     header nav li.p5{
         background-image: url("images/social/mail.png");
     }
-    
+
 /*Les competences*/
     .niveauc {
         display:inline-block;
@@ -177,3 +177,244 @@
         font-weight: bold;
         font-size: 15px;
     }
+    
+/*Experiences*/
+    #experiences .experience h2{
+        font-size: 15px;
+        color: #6A838C;
+        font-weight: normal;
+        margin: 5px 0px;
+    }
+    #experiences .experience p{
+        width: 570px;
+        margin: 5px 0px;
+    }
+    #experiences table img{
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+    #experiences h1.tsecteion{
+        margin: 5px 0px;
+    }
+    #experiences .experience{
+        margin-top: 10px;
+        position: relative;
+        right: 5px;
+        background-repeat: no-repeat;
+        padding-left: 120px;
+        font-size: 13px;        
+    }
+    #experiences .p1{
+        background-image: url("images/experiences/simple_it_logo.png");
+    }
+    #experiences .p2{
+        background-image: url("images/experiences/macdo_logo.png");
+    }
+    #experiences .p3{
+        background-image: url("images/experiences/tavel_logo.png");
+    }
+    
+/*formations*/
+    #formations h1{
+        margin: 5px 0px 10px 0px;
+    }
+    #formations h2{
+        font-weight: normal;
+        font-size: 15px;
+        margin: 15px 0px 5px 0px;
+    }
+    #formations p{
+        margin: 0px 0px;
+        font-size: 13px;
+    }
+    
+/*interets*/
+    #interets h1{
+        margin: 10px 0px 10px 0px;
+    }
+    #interets ul{
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #interets li{
+        display: inline-block;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        margin-right: 20px;
+        min-width: 170px;
+        height: 38px;
+        margin-bottom: 20px;
+    }
+    #interets li.p1{    background-image: url("images/centre_interet/voyages.png");}
+    #interets li.p2{    background-image: url("images/centre_interet/jeux.png");}
+    #interets li.p3{    background-image: url("images/centre_interet/photographie.png");}
+    #interets li.p4{    background-image: url("images/centre_interet/tir_a_l_arc.png");}
+    #interets li.p5{    background-image: url("images/centre_interet/films.png");}
+    #interets li.p6{    background-image: url("images/centre_interet/poulet.png");
+    }
+    #interets li h2{
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0px;
+    }
+    #interets li p{
+        font-size: 13px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #interets li p a{
+        text-decoration: none;
+        color: #858580;
+    }
+    #interets li p a:hover{
+        text-decoration: underline;
+    }
+    
+/*Contact*/
+    footer .tsecteion{
+        margin: 10px 0px 10px 0px;
+    }
+    #form-contact{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+    }
+    #form-contact p{
+        margin: 0px;
+    }
+    #form-contact input, footer #form-contact textarea{
+        display: block;
+        width: 90%;
+        border: 1px solid #002d40;
+        margin-bottom: 5px;
+        border-radius: 3px;
+        box-shadow: 0px 2px grey inset;
+        background-image: url("images/background.png");
+    }
+    #form-contact input{
+        height: 20px;
+    }
+    #form-contact textarea{
+        height: 95px;
+        border-top: 2px solid #002d40;
+    }
+    #form-contact textarea:focus, #form-contact input:focus{
+        box-shadow: 2px 2px #008a30;
+    }
+    #form-contact textarea:hover, #form-contact input:hover{
+        border: 1px dotted #002d40;
+    }
+    #form-contact input[type="submit"]{
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        width: 88px;
+        height: 28px;
+        background-image: url("images/enveloppe.png");
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        background-color: #002d40;
+        background-position: 0px -3px;
+        color: white;
+        font-family: Pacifico, serif;
+        box-shadow: none;
+        border: 2px groove grey;
+    }
+    #form-contact input[type="submit"]:hover{
+        border: 2px ridge grey;
+        cursor: pointer;
+    }
+/*Adresse*/
+    #adresse{
+        display: inline-block;
+        vertical-align: top;
+        color: grey;
+        font-size: 10px;
+    }
+    #adresse em, #adresse address{
+        font-style: normal;
+    }
+    #adresse iframe{
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    #ladresse{
+        margin: 0px;
+    }
+    
+/* Media queries*/
+    @media all and (max-width: 480px){
+        #cv{
+            width: auto;
+        }
+        header #skin{
+            display: block;
+            width: auto;
+            text-align: center;
+            margin: auto;
+        }
+        header #titre h1{
+            font-size: 50px;
+            position: static;
+        }
+        header #titre h2{
+            position: static;
+        }
+        
+        /*Suppretion des images nav*/
+        header nav li{
+            display: block;
+            margin-bottom: 20px;
+        }
+        header #competences ul{
+            margin-left: 20px;
+        }
+        header nav{
+            border: hidden;
+        }
+        
+        /*Pour le petit efet d'apparition de l'image au survol*/
+        header nav li.nopImg{
+            background-image: none;
+        }
+        header nav li.p1:hover{
+            background-image: url("images/social/viadeo.png");
+        }
+        header nav li.p2:hover{
+            background-image: url("images/social/twitter.png");
+        }
+        header nav li.p3:hover{
+            background-image: url("images/social/facebook.png");
+        }
+        header nav li.p4:hover{
+            background-image: url("images/social/linkedin.png");
+        }
+        header nav li.p5:hover{
+            background-image: url("images/social/mail.png");
+        }
+        
+        /*Footer*/
+        .tsecteion .img-titre{
+            visibility: hidden;
+        }
+        #form-contact{
+            position: static;
+        }
+        #form-contact input[type="submit"]{
+            right: 70px;
+        }
+        #experiences hr{
+            margin-top: 30px;
+        }
+        #experiences .experience{
+            background-image: none;
+            padding-left: 0px;
+            position: static;
+        }
+        #experiences .experience p{
+            width: auto;
+        }
+    }
+    
