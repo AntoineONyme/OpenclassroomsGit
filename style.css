@@ -71,3 +71,109 @@
         margin-left: 10px;
         color: #03638B;
     }
+    
+/*navigation*/
+    header nav{
+        border-color: #002D40;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    header nav ul{
+        padding-left: 20px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    header nav li{    
+        display: inline-block;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        margin-right: 20px;
+    }
+    header nav a{
+        color: #002d40;
+        text-decoration: none;
+    }
+    header nav a:visited{
+        color: #002d40;
+        text-decoration: none;
+    }
+    header nav a:hover{
+        color: #002d40;
+        text-decoration: underline;
+    }
+    header nav li.p1{
+        background-image: url("images/social/viadeo.png");
+    }
+    header nav li.p2{
+        background-image: url("images/social/twitter.png");
+    }
+    header nav li.p3{
+        background-image: url("images/social/facebook.png");
+    }
+    header nav li.p4{
+        background-image: url("images/social/linkedin.png");
+    }
+    header nav li.p5{
+        background-image: url("images/social/mail.png");
+    }
+    
+/*Les competences*/
+    .niveauc {
+        display:inline-block;
+        background-image:url('./images/competences/niveau.png');
+        background-repeat:no-repeat;
+        width:83px;
+        height:14px;
+    }    
+    #competences .niveau5 {
+        background-position:0 0;
+    }
+    #competences .niveau4 {
+        background-position:0 -16px;
+    }
+    #competences .niveau3 {
+        background-position:0 -32px;
+    }
+    #competences .niveau2 {
+        background-position:0 -48px;
+    }
+    #competences .niveau1 {
+        background-position:0 -64px;
+    }    
+    #competences ul{
+        padding: 0px;
+        margin-top: 10px;
+    }
+    #competences li{
+        background-position: 0px 5px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        margin-right: 20px;
+        min-width: 100px;
+        height: 38px;
+        margin-bottom: 5px;
+    }
+    #competences li:hover{
+        background-color: #C0C0C0;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    #competences li.p1{    background-image: url("images/competences/html5.png");}
+    #competences li.p2{    background-image: url("images/competences/css3.png");}
+    #competences li.p3{    background-image: url("images/competences/php.png");}
+    #competences li.p4{    background-image: url("images/competences/mysql.png");}
+    #competences li.p5{    background-image: url("images/competences/xml.png");}
+    #competences li.p6{    background-image: url("images/competences/xpath.png");}
+    #competences li.p7{    background-image: url("images/competences/javascript.png");}
+    #competences li.p8{    background-image: url("images/competences/jquery.png");}
+    #competences li.p9{    background-image: url("images/competences/ps.png");}
+    #competences li.p10{    background-image: url("images/competences/illustrator.png");
+    }
+    #competences li div{
+        font-weight: bold;
+        font-size: 15px;
+    }
